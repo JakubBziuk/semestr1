@@ -1,1 +1,1 @@
-# semestr1 siema
+# semestr1
