@@ -7,16 +7,83 @@
     <title>Kontakt</title>
 </head>
 <body>
-    <ul>
-    <li><a href="../index.html">Strona główna</a></li>
-    <li><a href="../O-mnie/index.html">O mnie</a></li>
-    </ul>
-    <h1>Kontakt</h1>
-    <p>Zachęcam do kontaktu!</p>
-    <ul>
-        <li>Jakub</li>
-        <li>Bziukiewicz</li>
-        <li><a href="mailto:jakub.bziukiewicz@shoper.pl">jakub.bziukiewicz@shoper.pl</a></li>
-    </ul>
+    <header>
+       <nav>
+        <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="../O-mnie/index.html">O mnie</a></li>
+        </ul>
+       </nav> 
+    </header>
+    <main>
+        <section>
+            <h1>Kontakt</h1>
+            <p>Zachęcam do kontaktu!</p>
+            <ul>
+                <li>Jakub</li>
+                <li>Bziukiewicz</li>
+                <li><a href="mailto:jakub.bziukiewicz@shoper.pl">jakub.bziukiewicz@shoper.pl</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Formularz kontaktowy</h2>
+            <form action="#">
+            <fieldset>
+            <div>
+                <label>
+                    Imię:
+                    <input type="text" name="firstName" placeholder="Podaj pierwsze imię">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Nazwisko:
+                    <input type="text" name="surname" placeholder="Podaj nazwisko">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Numer telefonu:
+                    <input type="number" name="phone" placeholder="Podaj numer telefonu">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Adres mail:
+                    <input type="text" name="mail" placeholder="Podaj adres mailowy">
+                </label>
+            </div>
+            </fieldset>
+            <fieldset>
+            <div>
+                <label>
+                    Opisz swój problem
+                    <textarea name="description" cols="30" rows="5"></textarea>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Kraj:
+                <select name="country">
+                    <option value="pl">Polska</option>
+                    <option value="it">Włochy</option>
+                    <option value="fr">Francja</option>
+                    <option value="de">Niemcy</option>
+                    <option value="cz">Czechy</option>
+                </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="terms">
+                    Akceptuję regulamin
+                </label>
+            </div>
+            </fieldset>
+            <input type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>Copyrights 2024</footer>
 </body>
 </html>
